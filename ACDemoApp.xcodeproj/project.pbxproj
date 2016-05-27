@@ -14,6 +14,7 @@
 		A64AF5761CF81F2F002DF453 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A64AF5741CF81F2F002DF453 /* LaunchScreen.storyboard */; };
 		A64AF5811CF81F2F002DF453 /* ACDemoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64AF5801CF81F2F002DF453 /* ACDemoAppTests.swift */; };
 		A64AF58C1CF81F2F002DF453 /* ACDemoAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64AF58B1CF81F2F002DF453 /* ACDemoAppUITests.swift */; };
+		A64AF59A1CF82B4C002DF453 /* AboutAC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64AF5991CF82B4C002DF453 /* AboutAC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		A64AF5871CF81F2F002DF453 /* ACDemoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ACDemoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A64AF58B1CF81F2F002DF453 /* ACDemoAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ACDemoAppUITests.swift; sourceTree = "<group>"; };
 		A64AF58D1CF81F2F002DF453 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A64AF5991CF82B4C002DF453 /* AboutAC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutAC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				A64AF5721CF81F2F002DF453 /* Assets.xcassets */,
 				A64AF5741CF81F2F002DF453 /* LaunchScreen.storyboard */,
 				A64AF5771CF81F2F002DF453 /* Info.plist */,
+				A64AF5991CF82B4C002DF453 /* AboutAC.swift */,
 			);
 			path = ACDemoApp;
 			sourceTree = "<group>";
@@ -193,7 +196,6 @@
 				TargetAttributes = {
 					A64AF5671CF81F2F002DF453 = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = K7A4G9EPU6;
 					};
 					A64AF57B1CF81F2F002DF453 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -260,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A64AF56E1CF81F2F002DF453 /* ViewController.swift in Sources */,
+				A64AF59A1CF82B4C002DF453 /* AboutAC.swift in Sources */,
 				A64AF56C1CF81F2F002DF453 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -404,6 +407,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = ACDemoApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = AC.ACDemoApp;
@@ -415,6 +419,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = ACDemoApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = AC.ACDemoApp;
